@@ -14,6 +14,7 @@ Plug 'https://github.com/tpope/vim-fugitive' " git integration
 Plug 'https://github.com/airblade/vim-gitgutter' " show which lines has been changed
 Plug 'https://github.com/preservim/nerdcommenter' " commenter tools
 Plug 'https://github.com/christoomey/vim-tmux-navigator' " tmux navigator
+Plug 'https://github.com/raimondi/delimitmate' " delemitator autocomplete
 
 call plug#end()
 
