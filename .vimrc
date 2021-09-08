@@ -10,6 +10,8 @@ call plug#begin()
 
 Plug 'https://github.com/vim-airline/vim-airline' " vim airline - status bar
 Plug 'https://github.com/preservim/nerdtree' " file tree sidebar
+Plug 'https://github.com/ryanoasis/vim-devicons' " nerdtree icon
+Plug 'https://github.com/PhilRunninger/nerdtree-buffer-ops' " close buffer from node tree
 Plug 'https://github.com/tpope/vim-fugitive' " git integration
 Plug 'https://github.com/airblade/vim-gitgutter' " show which lines has been changed
 Plug 'https://github.com/preservim/nerdcommenter' " commenter tools
