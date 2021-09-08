@@ -29,6 +29,9 @@ autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists('s:std_in
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
+"Move Nerd Tree position
+let g:NERDTreeWinPos = "right"
+
 " Create default mappings
 let g:NERDCreateDefaultMappings = 1
 
